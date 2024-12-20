@@ -1,0 +1,14 @@
+components:
+  infra:
+    branch: master
+    dest_dir: infra
+    revision: v6470
+    fetch_tags: true
+    type: git
+  benchmarks-clang-format:
+    dest_dir: tools/clang-format
+    type: git
+    branch: clang-format
+    revision: 15.0.6
+converter: 1
+version: '1'
